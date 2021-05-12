@@ -1,0 +1,1 @@
+az vmss create --name chuckcoffee --resource-group NCcoffee --image UbuntuLTS --location "East US 2" --admin-username azureuser --generate-ssh-keys --lb coffeeLB --custom-data coffeewebserverconfig.txt\
